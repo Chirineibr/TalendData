@@ -138,12 +138,12 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.datastore.host" value="https://synapses.ap.qlikcloud.com/data-integration"/>
+    <elementParameter field="TEXT" name="configuration.datastore.host" value="&quot;https://synapses.ap.qlikcloud.com/data-integration/catalog?space_filter=64a6b5c1ca76eabe21659797&quot;"/>
     <elementParameter field="PASSWORD" name="configuration.datastore.apiKey" value="enc:system.encryption.key.v1:GkY7iYC60JWt/4q28KDVWUzFIF48x9s4Z0sN/T/WjKJtg4h0Npsz6ozQr0TRj3x6cg1K7vnWxb/wJNC15XbqDrLuRIZ+mPXyDNYLoIb9EXzTPJ8Xn/QBCmAWqM8KWf1YMv75r9w+8b1FgpXDxQfODurvA2zGX4QV0rC/s/nc49zoznTVgJgEK8Y3qRnWt3bDaPWqPWHNyqnknaoU/LRqCW/ajExqtudkAkmGd1p5HOKQw61tnvibh9kES3tfZlt111Ld/W53RDm7Rd+ZWH96epdYWJS1HTNHpH2r3a4LGv5OP3HcN5EOVZ+jJcL/OdLWKtR0ThvjiGAO/a3fXE5bM4JMuE3u7EJTT8HxlwOHOzdfiCPYwbI88RbjCZKVP8KW7vCpwDcdzqxoZ2r+4ZZTvkkhQFfoz+rIWAet+A4aU9dNe3UwwaEQG05nx/IqxRjNmZ3H3UH9cN6aubo19r7ibjG3/6+BPtp5jOS3XBifC4/WVmqBF2ZN29tJYDBa3yYoO8BayqiRk25dk61dOgcLQ1OWJYJ8W12hadrgmCqj76PaE3l8F5mtO76f/pVfZfElY+QGtsd+fhYhRKURbO0jMzI9MLNlPWX9/oCEq8/yK8DB7MVCJKUL8SJYIr+QiwIvVfXssmjm49qya77g83djqB1pukKP3vA="/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
     <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/Users/User2/Desktop/Customers.qvd&quot;"/>
     <elementParameter field="CHECK" name="configuration.specifyId" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.fileName" value="lib://Demos:DataFiles/test/"/>
+    <elementParameter field="TEXT" name="configuration.fileName" value="[lib://Demos:DataFiles/]"/>
     <elementParameter field="TECHNICAL" name="configuration.datastore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tQlikOutput_2"/>
     <metadata connector="FLOW" name="tQlikOutput_2"/>
