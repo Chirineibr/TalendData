@@ -99,8 +99,8 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="QlikOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_1" show="false"/>
+  <node componentName="QlikOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_2" show="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="Output" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cWxpayNRbGlrI091dHB1dA" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="cWxpayNRbGlrI2RhdGFzdG9yZSNRbGlrRGF0YXN0b3Jl" show="false"/>
@@ -110,7 +110,6 @@
     <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
     <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
     <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -118,27 +117,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="test"/>
     <elementParameter field="TEXT" name="configuration.datastore.host" value="&quot;https://synapses.ap.qlikcloud.com&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.datastore.apiKey" value="enc:system.encryption.key.v1:b2VP5oiCqIIYIm1jKPnqm9iOv2L+JS5jT9nCEVSijtDjPZFG/OMr6QZ4Nd563244H6arP6vhgbAdrm8ReDu2852NEMIrLqR5H/pxvsmFWfp1V0HglLovOSAwQfyziRSz9jgfeovrK4j02rLUeNkfDLZgqkz0Bq1MtK7vw+EJzuKHHF/GlJcqCiSZqYzVDCS2JnEwi8dP8II1/sEkbpxB4IdwQ5RyzlG0afp/Oed5aXav0qVV83UqZBc9pUY22d/lZSgmqu9thkhiP3I45YTc3gwv79B30+by7HTfexhfIDYYaq9F480OH12Qp0ebfIR8Yz7nElulvt74VfvG22gcLB/gU7Yzeuve+sa0QEH3+wSTubw4VtG5KsCpTnowWcXsXl9siIWysYrumwR7bwZK1yv6e7c1ylCusUz8yPcXw1WcGmXxsoeh7Hi5PGTwl/g6GLW/vhpBTCLGPPHVtidofDn9mP8hlfX2XSnfXL/e/FhOn2v2fkzkCq9Ld6ZbzTvuMRD2nUnsSWoxRtS74mDeBLGwZwGJL3CkN2bbuldXGdeJr9HUDhoZ65l5NDx1IZgWV4txtxAW07AXPJYlYB/ZmJW3tn6U3HyByRDCGcyfO9rr4YKSMW1YiVgd08v5lX2opE6GzDwm1JvUuQhxpyZblZveRO88XsE="/>
-    <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
-    <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/Users/User2/Desktop/Customers.qvd&quot;"/>
-    <elementParameter field="CHECK" name="configuration.specifyId" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.fileName" value="/spaces/64a6b5c1ca76eabe21659797/datafiles?space_filter=64a6b5c1ca76eabe21659797/Demos/"/>
-    <elementParameter field="TECHNICAL" name="configuration.datastore.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tQlikOutput_1"/>
-    <metadata connector="FLOW" name="tQlikOutput_1"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
-  <node componentName="QlikOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cWxpayNRbGlrI091dHB1dA" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.datastore.host" value="&quot;https://synapses.ap.qlikcloud.com/&quot;"/>
     <elementParameter field="PASSWORD" name="configuration.datastore.apiKey" value="enc:system.encryption.key.v1:GkY7iYC60JWt/4q28KDVWUzFIF48x9s4Z0sN/T/WjKJtg4h0Npsz6ozQr0TRj3x6cg1K7vnWxb/wJNC15XbqDrLuRIZ+mPXyDNYLoIb9EXzTPJ8Xn/QBCmAWqM8KWf1YMv75r9w+8b1FgpXDxQfODurvA2zGX4QV0rC/s/nc49zoznTVgJgEK8Y3qRnWt3bDaPWqPWHNyqnknaoU/LRqCW/ajExqtudkAkmGd1p5HOKQw61tnvibh9kES3tfZlt111Ld/W53RDm7Rd+ZWH96epdYWJS1HTNHpH2r3a4LGv5OP3HcN5EOVZ+jJcL/OdLWKtR0ThvjiGAO/a3fXE5bM4JMuE3u7EJTT8HxlwOHOzdfiCPYwbI88RbjCZKVP8KW7vCpwDcdzqxoZ2r+4ZZTvkkhQFfoz+rIWAet+A4aU9dNe3UwwaEQG05nx/IqxRjNmZ3H3UH9cN6aubo19r7ibjG3/6+BPtp5jOS3XBifC4/WVmqBF2ZN29tJYDBa3yYoO8BayqiRk25dk61dOgcLQ1OWJYJ8W12hadrgmCqj76PaE3l8F5mtO76f/pVfZfElY+QGtsd+fhYhRKURbO0jMzI9MLNlPWX9/oCEq8/yK8DB7MVCJKUL8SJYIr+QiwIvVfXssmjm49qya77g83djqB1pukKP3vA="/>
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
     <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/Users/User2/Desktop/Customers.qvd&quot;"/>
@@ -151,11 +130,6 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tQlikOutput_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
