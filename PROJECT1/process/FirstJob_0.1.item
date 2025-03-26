@@ -123,7 +123,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.outputAction" value="CREATE"/>
     <elementParameter field="FILE" name="configuration.localFile" value="&quot;C:/Users/User2/Desktop/Customers.qvd&quot;"/>
     <elementParameter field="CHECK" name="configuration.specifyId" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.fileName" value="&quot;//Demos/&quot;"/>
+    <elementParameter field="TEXT" name="configuration.fileName" value="&quot;/Demos/&quot;"/>
     <elementParameter field="TECHNICAL" name="configuration.datastore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tQlikOutput_1"/>
     <metadata connector="FLOW" name="tQlikOutput_1"/>
